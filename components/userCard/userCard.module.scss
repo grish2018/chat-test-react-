@@ -1,0 +1,35 @@
+.userCard{
+    display: flex;
+    flex-direction: column;
+&__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+&__itemTitle{
+    display: flex;
+    align-items: center;
+    & span{
+        font-family: 'Whitney';
+        font-style: normal;
+        font-weight: 350;
+        font-size: 20px;
+        line-height: 26px;
+        color: #474351;
+    }
+    & img{
+        width: 19px;
+        height: 18px;
+        margin-right: 3px;
+    }
+}
+&__itemBody{
+    font-family: 'Whitney';
+    font-style: normal;
+    font-weight: 325;
+    font-size: 14px;
+    line-height: 18px;
+    color: #918D9A;
+}
+}

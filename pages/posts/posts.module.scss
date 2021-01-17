@@ -1,0 +1,27 @@
+.posts{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    &__listWrapper{
+        width: 80%;
+        height: 100%;
+        background: #E5E5E5;
+        padding: 60px 0px 0px 95px;
+        border-right:1px solid #EFEDF6;
+        overflow-y: auto;
+    }
+    &__list{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    &__listHeader{
+        margin-bottom:30px;
+        font-family: 'Whitney',sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 39px;
+        color: #2E2D35;
+    }
+}

@@ -1,0 +1,55 @@
+.postItem{
+    display: flex;
+    width: 65%;
+    flex-direction: column;
+    background: #FFFFFF;
+    border: 1px solid #ECEAF2;
+    padding: 21px 30px ;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 10px rgba(64, 40, 154, 0.05);
+    border-radius: 4px;
+    &__header{
+        display: flex;
+        border-bottom: 1px solid #ECEAF2;
+        padding-bottom: 11px;
+        margin-bottom: 13px;
+    }
+    &__title{
+        font-family: 'Whitney';
+        font-style: normal;
+        font-weight: 350;
+        font-size: 20px;
+        line-height: 26px;
+        color: #474351;
+       
+    }
+    &__content{
+        display: flex;
+        flex-direction: column;
+    }
+    &__body{
+        font-family: 'Whitney';
+        font-style: normal;
+        font-weight: 325;
+        font-size: 16px;
+        line-height: 21px;
+        color: #474351;
+        margin-bottom: 12px;
+    }
+    &__showComments{
+        text-decoration: none;
+        font-family: 'Whitney';
+        font-style: normal;
+        font-weight: 325;
+        font-size: 16px;
+        line-height: 21px;
+        color: #F25B24;
+        cursor: pointer;
+    }
+    &__comments{
+        display: flex;
+        flex-direction: column;
+        margin-top: 18px;
+        
+    }
+}
